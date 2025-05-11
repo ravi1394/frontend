@@ -10,10 +10,13 @@ body, html {
 .mcdu-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  align-items: flex-start; /* instead of center */
+  min-height: 100vh; /* allow growing with content */
   background-color: #000;
+  padding-top: 20px; /* ensure it's not hidden under browser bar */
+  box-sizing: border-box;
 }
+
 
 .mcdu-layout {
   display: flex;
