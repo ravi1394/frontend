@@ -124,7 +124,7 @@ const App = () => {
         <div className="mcdu-right mcdu-side">{rightButtons.map((label, i) => <button key={i} className="mcdu-rsk-button" onClick={() => handleButtonClick(label)}>{label}</button>)}</div>
       </div>
     </div>
-  );
+  );x
 };
 
 export default App;
