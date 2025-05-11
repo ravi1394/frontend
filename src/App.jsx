@@ -28,8 +28,7 @@ const alphaButtons = [
 const extraButtons = [
   ['PORT', 'EXEC'],
   ['←', '→'],
-  ['UP', 'DOWN'],
-  ['⌫']
+  ['UP', 'DOWN']
 ];
 
 const twoSideButtons = [['BRT'], ['DIM']];
@@ -57,7 +56,6 @@ const App = () => {
 
   const handleButtonClick = (label) => {
     if (label === 'CLR') setDisplayText('');
-    else if (label === '⌫') setDisplayText(prev => prev.slice(0, -1));
     else if (label === 'INIT') { setActivePage('INIT'); setSubPage(null); }
     else if (label === 'F-PLN') { setActivePage('FPLN'); setSubPage(null); }
     else if (label === 'FUEL PRED') { setActivePage('FUEL'); setSubPage(null); }

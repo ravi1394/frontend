@@ -162,9 +162,7 @@ body, html {
   cursor: pointer;
 }
 
-.mcdu-backspace-button {
-  background-color: #900;
-}
+
 
 .mcdu-numpad-button, .mcdu-alpha-button {
   width: 40px;
